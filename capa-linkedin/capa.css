@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-container {
+    max-width: 1201px;
+    max-height: 256px;
+    position: relative;
+}
+
+.cover-bg {
+    width: 1201px;
+    z-index: 5;
+    /* height: 256px; */
+}
+
+.first-letter {
+    color: #FFB701;
+}
+
+.first-name {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 187px;
+    margin-left: -568px;
+}
+
+.last-name {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 269px;
+    margin-left: -539px;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 352px;
+    margin-left: -533px;
+}
